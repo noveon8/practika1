@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Crisp</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#">
+            <img src="images/logo.svg" alt="logo" />
+          </a>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Sale</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Create an account</a></li>
+          <li>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+          </li>
+          <div class="shopping">
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <div class="shopping_info">
+                <p>Shopping Cart</p>
+                <p>0,00 eur</p>
+              </div>
+            </a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="slider">
+        <div class="slider_container container">
+          <div class="heading">
+            <h1>
+              Summer Sale Get <span>30% off</span>
+              on all dress
+            </h1>
+            <div class="button_sale">
+              <a class="btn" href="catalog.html">Shop Now</a>
+            </div>
+          </div>
+          <div class="slider_item">
+            <img src="images/people/girl_asian.jpg" alt="girl_asian.jpg" />
+            <img src="images/people/girl_blond.png" alt="girl_blond.png" />
+          </div>
+        </div>
+        <div class="slider_action">
+          <div class="pagination">
+            <div></div>
+            <div class="active"></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="arrow">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="brand container">
+        <div class="brand_container">
+          <div class="heading">
+            <h5>Chose Your Brand</h5>
+          </div>
+          <div class="brand_item">
+            <a href="#">
+              <img src="images/brand/chanel.png" alt="chanel.png" />
+            </a>
+            <a href="#">
+              <img src="images/brand/burberry.png" alt="burberry.png" />
+            </a>
+            <a href="#">
+              <img src="images/brand/dior.png" alt="dior.png" />
+            </a>
+            <a href="#">
+              <img src="images/brand/fendi.png" alt="fendi.png" />
+            </a>
+            <a href="#">
+              <img src="images/brand/versace.png" alt="versace.png" />
+            </a>
+            <a href="#">
+              <img src="images/brand/gucci.png" alt="gucci.png" />
+            </a>
+            <a href="#">
+              <img src="images/brand/armani.png" alt="armani.png" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="discounts container">
+        <div class="discounts_container">
+          <div class="discounts_item">
+            <img src="images/people/girl_hat.png" alt="discount_1.jpg" />
+            <div class="info_discounts">
+              <div class="heading">
+                <h5>choosе your look</h5>
+                <p>See our clothing collections</p>
+              </div>
+              <div class="button">
+                <a class="btn" href="#">see offers</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="discounts_item">
+            <img src="images/people/girl_europe.png" alt="discount_1.jpg" />
+            <div class="info_discounts">
+              <div class="heading">
+                <h5>brand new style</h5>
+                <p>Popular clothing brands</p>
+              </div>
+
+              <div class="button">
+                <a class="btn" href="#">see offers</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="discounts_item">
+            <img src="images/people/girl_nigger.png" alt="discount_1.jpg" />
+            <div class="info_discounts">
+              <div class="heading">
+                <h5>Up to 40% off</h5>
+                <p>Special offers and great deals</p>
+              </div>
+              <div class="button">
+                <a class="btn" href="#">shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product_filter container">
+        <div class="product_filter_container">
+          <div class="filter">
+            <h2>Shop Some Wear:</h2>
+            <ul class="category">
+              <li>
+                <input type="checkbox" name="best" id="best" />
+                <label for="best">Best sellers</label>
+              </li>
+
+              <li>
+                <input type="checkbox" name="arivals" id="arivals" />
+                <label for="arivals">New Arivals</label>
+              </li>
+
+              <li>
+                <input type="checkbox" name="women" id="women" />
+                <label for="women">Top women</label>
+              </li>
+
+              <li>
+                <input type="checkbox" name="summer" id="summer" />
+                <label for="summer">Collection: Summer</label>
+              </li>
+
+              <li>
+                <input type="checkbox" name="spring" id="spring" />
+                <label for="spring">Collection: spring</label>
+              </li>
+
+              <li>
+                <input type="checkbox" name="trending" id="trending" />
+                <label for="trending">Trending</label>
+              </li>
+            </ul>
+          </div>
+          <div class="product">
+            <div class="cards_product">
+              <a href="#">
+                <div class="product_image">
+                  <img src="images/product/product1.png" alt="product1.png" />
+                </div>
+                <div class="product_info">
+                  <p class="category_product">Top Women</p>
+                  <h3 class="title_product">
+                    Angels malu zip jeans slim black used
+                  </h3>
+                  <div class="price_product">
+                    <p class="price">139,00 eur</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="cards_product">
+              <a href="#">
+                <div class="product_image">
+                  <img src="images/product/product2.png" alt="product2.png" />
+                </div>
+                <div class="product_info">
+                  <p class="category_product">Top Women</p>
+                  <h3 class="title_product">
+                    Angels malu zip jeans slim black used
+                  </h3>
+                  <div class="price_product">
+                    <p class="price">235,00 eur</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="cards_product">
+              <a href="#">
+                <div class="product_image">
+                  <img src="images/product/product3.png" alt="product3.png" />
+                </div>
+                <div class="product_info">
+                  <p class="category_product">Top Women</p>
+                  <h3 class="title_product">
+                    Angels malu zip jeans slim black used
+                  </h3>
+                  <div class="price_product">
+                    <p class="price">90,00 eur</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="cards_product">
+              <a href="#">
+                <div class="product_image">
+                  <img src="images/product/product4.png" alt="product4.png" />
+                  <div class="discount">-30%</div>
+                </div>
+                <div class="product_info">
+                  <p class="category_product">Top Women</p>
+                  <h3 class="title_product">
+                    Angels malu zip jeans slim black used
+                  </h3>
+                  <div class="price_product">
+                    <p class="price"><span>90,00 eur</span></p>
+                    <p class="old_price">119,00 EUR</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="cards_product">
+              <a href="#">
+                <div class="product_image">
+                  <img src="images/product/product5.png" alt="product5.png" />
+                </div>
+                <div class="product_info">
+                  <p class="category_product">Top Women</p>
+                  <h3 class="title_product">
+                    Angels malu zip jeans slim black used
+                  </h3>
+                  <div class="price_product">
+                    <p class="price">139,00 eur</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="cards_product">
+              <a href="#">
+                <div class="product_image">
+                  <img src="images/product/product6.png" alt="product6.png" />
+                  <div class="discount">-30%</div>
+                </div>
+                <div class="product_info">
+                  <p class="category_product">Top Women</p>
+                  <h3 class="title_product">
+                    Angels malu zip jeans slim black used
+                  </h3>
+                  <div class="price_product">
+                    <p class="price"><span>139,00 eur</span></p>
+                    <p class="old_price">119,00 EUR</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="cards_product">
+              <a href="#">
+                <div class="product_image">
+                  <img src="images/product/product7.png" alt="product7.png" />
+                </div>
+                <div class="product_info">
+                  <p class="category_product">Top Women</p>
+                  <h3 class="title_product">
+                    Angels malu zip jeans slim black used
+                  </h3>
+                  <div class="price_product">
+                    <p class="price">139,00 eur</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="cards_product">
+              <a href="#">
+                <div class="product_image">
+                  <img src="images/product/product8.png" alt="product8.png" />
+                </div>
+                <div class="product_info">
+                  <p class="category_product">Top Women</p>
+                  <h3 class="title_product">
+                    Angels malu zip jeans slim black used
+                  </h3>
+                  <div class="price_product">
+                    <p class="price">139,00 eur</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="button">
+              <button class="btn gray">Load more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shopping_limits container">
+        <div class="shopping_limits_container">
+          <div class="text_shopping">
+            <h2>Shoping without limits.</h2>
+            <p>
+              You can choose the best option for you, and it does not matter
+              whether you are in Prague or San Francisco. We will deliver your
+              purchase anywhere!
+            </p>
+            <div class="button">
+              <a class="btn" href="#">shop now</a>
+            </div>
+          </div>
+          <div class="image_shopping">
+            <img src="images/bg/bg_shopping_section.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="featured_items container">
+        <h2>Featured Items</h2>
+        <div class="featured_items_container">
+          <div class="cards_product">
+            <a href="#">
+              <div class="product_image">
+                <img src="images/product/product9.png" alt="product9.png" />
+              </div>
+              <div class="product_info">
+                <p class="category_product">Top Women</p>
+                <h3 class="title_product">
+                  Angels malu zip jeans slim black used
+                </h3>
+                <div class="price_product">
+                  <p class="price">139,00 eur</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="cards_product">
+            <a href="#">
+              <div class="product_image">
+                <img src="images/product/product2.png" alt="product2.png" />
+              </div>
+              <div class="product_info">
+                <p class="category_product">Top Women</p>
+                <h3 class="title_product">
+                  Angels malu zip jeans slim black used
+                </h3>
+                <div class="price_product">
+                  <p class="price">139,00 eur</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="cards_product">
+            <a href="#">
+              <div class="product_image">
+                <img src="images/product/product6.png" alt="product6.png" />
+              </div>
+              <div class="product_info">
+                <p class="category_product">Top Women</p>
+                <h3 class="title_product">
+                  Angels malu zip jeans slim black used
+                </h3>
+                <div class="price_product">
+                  <p class="price">139,00 eur</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="cards_product">
+            <a href="#">
+              <div class="product_image">
+                <img src="images/product/product4.png" alt="product4.png" />
+              </div>
+              <div class="product_info">
+                <p class="category_product">Top Women</p>
+                <h3 class="title_product">
+                  Angels malu zip jeans slim black used
+                </h3>
+                <div class="price_product">
+                  <p class="price">139,00 eur</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="cards_product">
+            <a href="#">
+              <div class="product_image">
+                <img src="images/product/product8.png" alt="product8.png" />
+              </div>
+              <div class="product_info">
+                <p class="category_product">Top Women</p>
+                <h3 class="title_product">
+                  Angels malu zip jeans slim black used
+                </h3>
+                <div class="price_product">
+                  <p class="price">139,00 eur</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="most_popular_items container">
+        <h2>Most Popular</h2>
+        <div class="most_popular_items_container">
+          <div class="cards_product">
+            <a href="#">
+              <div class="product_image">
+                <img src="images/product/product5.png" alt="product5.png" />
+              </div>
+              <div class="product_info">
+                <p class="category_product">Top Women</p>
+                <h3 class="title_product">
+                  Angels malu zip jeans slim black used
+                </h3>
+                <div class="price_product">
+                  <p class="price">139,00 eur</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="cards_product">
+            <a href="#">
+              <div class="product_image">
+                <img src="images/product/product9.png" alt="product9.png" />
+              </div>
+              <div class="product_info">
+                <p class="category_product">Top Women</p>
+                <h3 class="title_product">
+                  Angels malu zip jeans slim black used
+                </h3>
+                <div class="price_product">
+                  <p class="price">139,00 eur</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="cards_product">
+            <a href="#">
+              <div class="product_image">
+                <img src="images/product/product8.png" alt="product8.png" />
+              </div>
+              <div class="product_info">
+                <p class="category_product">Top Women</p>
+                <h3 class="title_product">
+                  Angels malu zip jeans slim black used
+                </h3>
+                <div class="price_product">
+                  <p class="price">139,00 eur</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="cards_product">
+            <a href="#">
+              <div class="product_image">
+                <img src="images/product/product6.png" alt="product6.png" />
+              </div>
+              <div class="product_info">
+                <p class="category_product">Top Women</p>
+                <h3 class="title_product">
+                  Angels malu zip jeans slim black used
+                </h3>
+                <div class="price_product">
+                  <p class="price">139,00 eur</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="cards_product">
+            <a href="#">
+              <div class="product_image">
+                <img src="images/product/product2.png" alt="product2.png" />
+              </div>
+              <div class="product_info">
+                <p class="category_product">Top Women</p>
+                <h3 class="title_product">
+                  Angels malu zip jeans slim black used
+                </h3>
+                <div class="price_product">
+                  <p class="price">139,00 eur</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+	  <section class="explore container">
+		<div class="explore_container">
+			<div class="explore_image">
+				<img src="images/bg/explore_bg.jpg" alt="">
+			</div>
+			<div class="explore_info">
+				<h2>EXPLORE THE BEST OF YOU.</h2>
+				<p>You can choose the best option for you, and it does not matter whether you are in Prague or San Francisco.</p>
+				<div class="button"><a href="#" class="btn">shop now</a></div>
+			</div>
+		</div>
+	  </section>
+
+    <section class="blog container">
+      <h2>Blog</h2>
+      <div class="blog_container">
+
+        <div class="blog_item">
+          <div class="category"><p>Article</p></div>
+          <div class="title"><h3>Exactly What To Wear To Every Type Of Wedding This Summer</h3></div>
+          <div class="text">
+            <p>A large part of the business here is building up the "experience". Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing competitions. All of this builds up your perception of the brand - and additionally, it costs money.</p>
+          </div>
+          <div class="date_published">
+            <p>21 January 2018 by guido</p>
+          </div>
+        </div>
+
+        <div class="blog_item">
+          <div class="category"><p>Tips</p></div>
+          <div class="title"><h3>Exactly What To Wear To Every Type Of Wedding This Summer</h3></div>
+          <div class="text">
+            <p>A large part of the business here is building up the "experience". Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing competitions. All of this builds up your perception of the brand - and additionally, it costs money.</p>
+          </div>
+          <div class="date_published">
+            <p>21 January 2018 by guido</p>
+          </div>
+        </div>
+
+        <div class="blog_item">
+          <div class="category"><p>Tips</p></div>
+          <div class="title"><h3>Exactly What To Wear To Every Type Of Wedding This Summer</h3></div>
+          <div class="text">
+            <p>A large part of the business here is building up the "experience". Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing competitions. All of this builds up your perception of the brand - and additionally, it costs money.</p>
+          </div>
+          <div class="date_published">
+            <p>21 January 2018 by guido</p>
+          </div>
+        </div>
+
+        <div class="blog_item">
+          <div class="category"><p>Article</p></div>
+          <div class="title"><h3>Exactly What To Wear To Every Type Of Wedding This Summer</h3></div>
+          <div class="text">
+            <p>A large part of the business here is building up the "experience". Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing competitions. All of this builds up your perception of the brand - and additionally, it costs money.</p>
+          </div>
+          <div class="date_published">
+            <p>21 January 2018 by guido</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="advantage">
+      <div class="advantage_container">
+        
+        <div class="advatage_item">
+          <p>Duties and Taxes Guaranteed</p>
+        </div>
+
+        <div class="advatage_item">
+          <p>Free Express Shipping</p>
+        </div>
+
+        <div class="advatage_item">
+          <p>Customer Love</p>
+        </div>
+
+        <div class="advatage_item">
+          <p>Easy Returns</p>
+        </div>
+
+        <div class="advatage_item">
+          <p>Secure Payment</p>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer class="container">
+
+      <div class="element_footer">
+
+        <ul class="logo">
+          <li><a href="#"><img src="images/logo.svg" alt="logo.svg"></a></li>
+        </ul>
+
+        <ul>
+          <li class="title">Features</li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Boys</a></li>
+          <li><a href="#">Girls</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Cothes</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+
+        <ul>
+          <li class="title">Menu</li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contanct us</a></li>
+          <li><a href="#">My account</a></li>
+          <li><a href="#">Orders history</a></li>
+          <li><a href="#">My wishlist</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+
+        <ul>
+          <li class="title">Contanct Us</li>
+          <li>
+            <p>Address:</p>
+            <p>123 STREET NAME, CITY, ENGLAND</p>
+          </li>
+          <li>
+            <p>Phone</p>
+            <p>(123) 456-7890</p>
+          </li>
+          <li>
+            <p>Email</p>
+            <p>MAIL@EXAMPLE.COM</p>
+          </li>
+          <li>
+            <p>Working Days/Hours</p>
+            <p>MON - SUN / 9:00AM - 8:00PM</p>
+          </li>
+        </ul>
+
+        <ul>
+          <li class="title">Follow Us</li>
+          <li><a href="#"><i class="fa-brands fa-square-facebook"></i><span>Facebook</span></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-twitter"></i><span>Twitter</span></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-instagram"></i>instagram</a></li>
+        </ul>
+
+        <div class="email_join">
+          <h3>Join</h3>
+
+          <form action="">
+            <label for="">Subscribe to our newsletters</label>
+            <input placeholder="Email Address" type="email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+    </div>
+
+    <div class="author">
+      &copy; 2019. Crisp theme Developed by Belvg
+    </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/6d25e42a34.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
